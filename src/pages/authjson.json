@@ -1,0 +1,21 @@
+{
+    "login": "test file",
+    "people": [
+        {
+         "login": 1,
+         "password": 1234
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    ] 
+}

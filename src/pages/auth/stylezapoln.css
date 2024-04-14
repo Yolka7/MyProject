@@ -1,0 +1,172 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+.wrapper{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content{
+    flex: 1 1 auto;
+
+}
+.auth{
+    max-width: 100vw ;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background: #F5F6F7;
+    font-family: 'Roboto', sans-serif;
+    padding: 40px 0;
+}
+.qwerty{
+    padding: 7px 80px;
+    width: 100%;
+    background: #111F26;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.User{
+    display: flex;
+    align-items: center; 
+}
+.Img{
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+}
+.window{
+    z-index:  1000;
+    border-radius: 8px;
+    background: #FFFFFF;
+    
+}
+.header{
+    
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 0;
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    background:  #0C4533;
+    color: white;
+    
+}
+.Vopros{
+    padding-bottom: 40px;
+}
+.Vopros input{
+    margin-left: 3%;
+}
+.zapoln{
+    padding: 40px;
+}
+.one{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.podheader{
+    color: #000000B2;
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 12px;
+    padding-left: 3%;
+} 
+
+.Cancel{
+    padding: 16px 32.5px;
+    
+    background: #830909;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.Cancel:hover{
+    background: rgb(75, 5, 17);
+}
+.Send{
+    padding: 16px 32.5px;
+    margin-left: 15px;
+    background: #0C4533;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.Send:hover{
+    background: rgb(91, 91, 227);
+}
+.Knopki{
+    display: flex;
+    justify-content: right;
+}
+.first{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100% ;
+    background: #F5F6F7;
+    border-radius: 8px;
+    border:1px #0000004D solid;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.three{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100% ;
+    
+    background: #F5F6F7;
+    border-radius: 8px;
+    border:1px #0000004D solid;
+    font-size: 15px;
+    padding: 10px 0 74px 10px;
+    
+}
+.circle{
+   display: flex; 
+   flex-direction: column;
+   font-size: 14px;
+   padding-bottom: 5px;
+}
+.circle label{
+    padding-bottom: 15px;
+}

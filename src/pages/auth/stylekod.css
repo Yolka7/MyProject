@@ -1,0 +1,94 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+.wrapper{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content{
+    flex: 1 1 auto;
+
+}
+.kod{
+    max-width: 100vw ;
+    height: 100vh;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F6F7;
+    font-family: 'Roboto', sans-serif;
+
+}
+.window{
+    padding : 30px ; 
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+.header{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.podheader{
+    color: #000000B2;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.koddos{
+    font-weight: 500;
+    
+}
+.podtv{
+    padding: 16px 0;
+    width: 100%;
+    background: #0C4533;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 40px ;
+    font-size: 15px;
+    cursor: pointer;
+}
+.podtv:hover{
+    background: rgb(91, 91, 227);
+}
+input{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100% ;
+    background: #F5F6F7;
+    border-radius: 8px;
+    border:1px #0000004D solid;
+    font-size: 15px;
+    padding-left: 10px;
+
+}
