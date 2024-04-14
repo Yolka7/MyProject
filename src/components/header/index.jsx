@@ -3,8 +3,11 @@ import './style.css'
 function Header() {
 
     return ( 
-        <header>
-            <p className="header-main"><strong>QWERTY Solution</strong></p>
+        <header className="header-main">
+            <nav> 
+            
+             <a href="/"><strong>QWERTY Solution</strong></a>
+            </nav>            
         </header>
     );
 }

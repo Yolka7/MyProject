@@ -3,6 +3,7 @@ import Button from '../../components/button';
 import Input from '../../components/input';
 import api from '../../lib/api'
 import cookie from 'js-cookie'
+import {Link} from "react-router-dom";
 
 
 import { useState } from 'react'
@@ -67,9 +68,11 @@ function Authpage() {
                     <div style={{ marginTop: "2em" }}>
                         
                     </div>
-                         <div class="regi">У вас еще не создана учетная запись?
-                         </div>
-                             <a href='/reg'><span><i className="reg-a">Регистрация</i></span></a>            
+
+                    <div className="recovery_text">
+                            <span className="regi">У вас еще не создана учетная запись? </span>
+                            <Link className="reg-a" to="/reg">Регистрация</Link>
+                    </div>         
                 </div>
             </div>    
         </div>
