@@ -16,9 +16,8 @@ function Authpage() {
     const [password, setPassword] = useState('')
     const handleClick = async (e) => {
         if (!login || !password) return;
-        api.post('/login', { username: login, password}).then((res) => {
-            const token = res.token
-            console.log(token)
+        api.post('/login', { email: login, password}).then((res) => {
+            const token = res.data.token
             if (!token ) console.log("error") 
             cookie.set('token', `Bearer ${token}`, {
                 expires: 30,
@@ -40,9 +39,9 @@ function Authpage() {
                     <Input
                         disabled={false}
                         id="name"
-                        label="Логин/Почта"
+                        label="Почта"
                         onChange={(value) => setLogin(value)}
-                        placeholder="Логин/Почта"
+                        placeholder="Почта"
                         value={login}
                         type="text"
                     />
