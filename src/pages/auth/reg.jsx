@@ -1,6 +1,9 @@
 import './stylereg.css'
 
 function Reg() {
+
+
+    
     return ( 
         <div class="vrop"> 
             <div class="content">

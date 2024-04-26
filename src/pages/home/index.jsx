@@ -34,7 +34,7 @@ function HomePage() {
                 <div className={showContent ? "okna" : "hidden okna"}>
                     {
                         numbers.map((num, index) => (
-                            <div className="window" key={index}>
+                            <div className="window_in_house" key={index}>
                                 <div className="window_text">
                                     <p className="windows_title">Сломался стул</p>
                                     <p className="windows_subtitle">Н. А. Абрикосова, Отдел по закупке</p>
