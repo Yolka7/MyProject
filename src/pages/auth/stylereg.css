@@ -115,3 +115,15 @@ input{
     font-size: 15px; 
     padding-left: 10px; 
 }
+Miniinput{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100% ;
+    background: #F5F6F7;
+    border-radius: 8px;
+    border:1px #0000004D solid;
+    font-size: 15px; 
+    padding-left: 10px; 
+}
+

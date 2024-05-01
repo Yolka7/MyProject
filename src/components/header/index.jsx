@@ -1,4 +1,5 @@
 import './style.css'
+import {Link} from "react-router-dom";
 
 function Header() {
 
@@ -6,7 +7,7 @@ function Header() {
         <header className="header-main">
             <nav> 
             
-             <a href="/"><strong>QWERTY Solution</strong></a>
+            <Link className="qwerty" to="/">QWERTY Solution</Link>
             </nav>            
         </header>
     );

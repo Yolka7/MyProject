@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 
 function HomePage() {
 
-    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8];
+    const numbers = [1, 2, 3, 4, 5, 6, 7];
 
     const [showContent, setShowContent] = useState(true);
     const [rotate, setRotate] = useState(false);

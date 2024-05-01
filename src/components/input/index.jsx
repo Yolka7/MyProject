@@ -23,3 +23,26 @@ export default function Input({
     </div>
   )
 }
+
+ function Input1({
+  label,
+  type,
+  placeholder,
+  onChange,
+  value,
+  disabled
+}) {
+
+  return (
+    <div className='input_min'>
+      <p className="input-main__label">{label}</p>
+      <input
+        disabled={disabled}
+        type={type}
+        placeholder={placeholder}
+        value={value}
+        onChange={( val ) => onChange(val.target.value)}
+      />
+    </div>
+  )
+}

@@ -26,18 +26,18 @@ function App() {
             // navigate("/");
         }).catch((e)=> {
             if (e.response.status === 401) {
-              // cookie.remove('token')
-              // navigate("/auth");
+              cookie.remove('token')
+              navigate("/auth");
             }
         })
       }
     } else {
       if (token) {
         api.get('/protected').then((res) => {
-            // navigate("/");
+            navigate("/");
         }).catch((e)=> {
             if (e.response.status === 401) {
-              // cookie.remove('token')
+              cookie.remove('token')
             }
         })
       }

@@ -14,3 +14,20 @@
     position: relative;
     top: 1px;
 }
+
+.btn-reg{
+    height: 50px;
+    padding: 16px 170px;
+    background: #0C4533;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: opacity 0.2s ease-in;
+}
+.btn-reg:hover{
+    background: rgb(91, 91, 227);
+}
+.btn-reg:active{
+    position: relative;
+    top: 1px;
+}
